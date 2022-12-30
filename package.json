@@ -1,7 +1,7 @@
 {
   "name": "openai",
   "version": "0.1.0",
-  "homepage": "https://igu1.github.io",
+  "homepage": "https://igu1.github.io/react-random-user",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
