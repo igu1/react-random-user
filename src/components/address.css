@@ -1,0 +1,30 @@
+.address-block{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-block p {
+    margin: 20px 0px;
+}
+
+button {
+    display: block;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    border: none;
+    transition: 1s cubic-bezier(0.39, 0.5, 0.15, 1.36);
+  }
+  
+  button.button {
+    color: #00bfff;
+    box-shadow: #00bfff 0 0 0 1px inset;
+  }
+  
+  button.button:hover {
+    color: #fff;
+    box-shadow: #00bfff 0 0 0 40px inset;
+  }

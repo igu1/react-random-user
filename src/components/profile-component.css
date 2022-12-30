@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+.profile-card .d-data img {
+    text-align: center;
+}
+
+.profile-card .d-data{
+    display: flex;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+button {
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: none;
+  transition: 1s cubic-bezier(0.39, 0.5, 0.15, 1.36);
+}
+
+button.button {
+  color: #00bfff;
+  box-shadow: #00bfff 0 0 0 1px inset;
+}
+
+button.button:hover {
+  color: #fff;
+  box-shadow: #00bfff 0 0 0 40px inset;
+}
+
+.reload-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-reload{
+  margin-top: 10px;
+  width: 50%;
+}
+.userdata p {
+    margin: 20px 0px;
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.btn-reload{
+  animation: reload-icon-anime 1s 0 forwards;
+}
+
+.reload-icon{
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-reload:hover .reload-icon{
+  transform: rotateZ(90deg);
+}
